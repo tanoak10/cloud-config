@@ -10,15 +10,6 @@ spring:
     password: 123123
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
-  thymeleaf:
-    cache: false
-    mode: HTML5
-    prefix: classpath:/templates/
-    suffix: .html
-    content-type: text/html
-    #驼峰下划线转换
-#    db-column-underline: true
-
 logging:
   level: warn
   file: log/stumanage.txt
