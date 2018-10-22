@@ -1,0 +1,22 @@
+{
+  "name": "didispace",
+  "profiles": [
+    "prod"
+  ],
+  "label": "config-label-test",
+  "version": "19de8a25575a7054a34230f74a22aa7f5575a9d1",
+  "propertySources": [
+    {
+      "name": "http://git.oschina.net/didispace/SpringBoot-Learning/Chapter9-1-4/config-repo/didispace-prod.properties",
+      "source": {
+        "from": "git-prod-2.0"
+      }
+    },
+    {
+      "name": "http://git.oschina.net/didispace/SpringBoot-Learning/Chapter9-1-4/config-repo/didispace.properties",
+      "source": {
+        "from": "git-default-2.0"
+      }
+    }
+  ]
+}
