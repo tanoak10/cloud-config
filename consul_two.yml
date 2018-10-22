@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        healthCheckInterval: 15s
+        instance-id: consul-two
+  application:
+    name: consul-two
+server:
+  port: 8504
